@@ -18,6 +18,8 @@ const renderPage = () => {
 
                 <View style={styles.imageContainer}>
                 <View style={styles.circle}></View>
+                <View style={styles.circle}></View>
+                <View style={styles.circle}></View>
                 <Image style={styles.Ima} source={require('../assets/images/celu.png')} />
 </View>
 
