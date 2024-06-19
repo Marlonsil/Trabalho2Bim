@@ -42,22 +42,22 @@ const styles = StyleSheet.create({
     backgroundColor: '#000C29',
     },
     title: {
-    fontSize: 24,
+    fontSize: 17,
     fontWeight: 'bold',
     color: '#fff',
     marginBottom: 20,
     },
     testo: {
-        fontSize: 24,
+        fontSize: 17,
         
         color: '#fff',
-        marginBottom: 20,
+        marginBottom: 0,
         },
         mapa: {
-            fontSize: 24,
+            fontSize: 17,
            
             color: '#0F77B1',
-            marginBottom: 20,
+            marginBottom: 0,
             },
     Logo: {
         fontSize: 24,
@@ -73,17 +73,17 @@ const styles = StyleSheet.create({
             marginBottom: 20,
             },
             line: {
-                width: '40%', // Largura da linha (80% da largura do container)
+                width: '38%', // Largura da linha (80% da largura do container)
                 height: 2, // Altura da linha
                 backgroundColor: '#0F77B1', // Cor da linha
-                marginBottom: 10, // Espaço abaixo da linha
+                marginBottom: 60, // Espaço abaixo da linha
                 marginRight:220,
                 marginTop:-15,
               },
     button: {
     backgroundColor: '#071D92',
     padding: 20,
-    paddingHorizontal:100,
+    paddingHorizontal:140,
     borderRadius: 5,
     },
     buttonText: {

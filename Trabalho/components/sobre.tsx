@@ -15,8 +15,8 @@ return (
                 <Image style={styles.Ima} source={require('../assets/images/loca.png')} />
 
         <Text style={styles.title}> Localização atual</Text>
-        <Text style={styles.title}>latitude 0:0</Text>
-        <Text style={styles.title}>longitude 0:0</Text>
+        <Text style={styles.testo}>latitude 0:0</Text>
+        <Text style={styles.testo}>longitude 0:0</Text>
 
 
         <TouchableOpacity style={styles.button2} onPress={() => setPage("home")}>
@@ -44,12 +44,19 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#000C29',
     },
+
     title: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: 'bold',
     color: '#fff',
     marginBottom: 20,
     },
+
+    testo: {
+        fontSize: 17,
+        color: '#fff',
+        marginBottom: 20,
+        },
     Logo: {
         fontSize: 24,
         fontWeight: 'bold',
@@ -64,7 +71,7 @@ const styles = StyleSheet.create({
             marginBottom: 20,
             },
             line: {
-                width: '40%', // Largura da linha (80% da largura do container)
+                width: '30%', // Largura da linha (80% da largura do container)
                 height: 2, // Altura da linha
                 backgroundColor: '#0F77B1', // Cor da linha
                 marginBottom: 10, // Espaço abaixo da linha
@@ -74,7 +81,7 @@ const styles = StyleSheet.create({
               button: {
                 backgroundColor: '#071D92',
                 padding: 20,
-                paddingHorizontal:100,
+                paddingHorizontal:145,
                 borderRadius: 5,
                 },
                 buttonText: {
@@ -94,4 +101,12 @@ const styles = StyleSheet.create({
                     fontSize: 16,
                     fontWeight: 'bold',
                     },
+
+                    Ima:{
+                        width: 500,
+                        height: 300,
+                        marginBottom: 20,
+                        resizeMode: 'contain',
+                        marginTop:20,
+                    }
     });
